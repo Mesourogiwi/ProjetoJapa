@@ -21,3 +21,24 @@ p .card-text {
 #card3 {
 	background-color: #000000;
 }
+
+.header-size{
+    background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url(imgs/sushiCaviar.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.message{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    font-family: 'Righteous', cursive;
+}
