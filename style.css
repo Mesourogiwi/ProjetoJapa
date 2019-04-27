@@ -1,0 +1,23 @@
+.card-body {
+    padding: 0.5rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .0;
+}
+
+p .card-text {
+	padding-bottom: 0.8rem;
+	line-height: 1.2rem;
+	text-align: justify;
+}
+
+#card1 {
+	background-color: #FF110E;
+}
+
+#card3 {
+	background-color: #000000;
+}
