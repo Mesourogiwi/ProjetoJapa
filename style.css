@@ -42,3 +42,8 @@ p .card-text {
     position: relative;
     font-family: 'Righteous', cursive;
 }
+
+.coiso{
+    background-color: #f2f2f2;
+    margin-top: 10px;
+}
