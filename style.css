@@ -1,3 +1,11 @@
+body {
+  background: url("imgs/aaa.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Open Sans", serif;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -17,37 +25,19 @@
     border-radius: .0;
 }
 
-.bg1 {
-  background-image: url("imgs/aaa.jpg");
 
-  /* Half height */
-  height: 50%;
-
-  /* Center and scale the image nicely */
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .bg {
-  /* The image used */
-  background-color: #000000;
+  
+  background-color: #000000; 
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} 
 
 .bg0 {
-  /* The image used */
-  background-image: url("imgs/arte.jpg");
-
-  /* Half height */
-  height: 50%;
-
-  /* Center and scale the image nicely */
-  background-position: top;
+  background-color: white;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -58,17 +48,19 @@ p .card-text {
 	text-align: justify;
 }
 .seq:hover{
-     background-color: white; 
-     color: blue;
+     background-color: grey ; 
+     
 }
 
 
 #card1 {
-	background-color: #FF110E;
+	background-color: #bd1713;
 }
-
+#card2{
+  background-color: #7e1814;
+}
 #card3 {
-	background-color: #000000;
+	background-color: #43140f;
 }
 
 .header-size{
@@ -102,12 +94,50 @@ p .card-text {
 }
 
 #card4 {
-    background-color: #000000;
+    background-color: #43140f;
+}
+#card5{
+ background-color: #7e1814;
 }
 
 #card6 {
-    background-color: #FF110E;
+    background-color:#bd1713 ;
 }
+ .col-md-3{
+    background-color: #7e1814;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  .contact-info{
+    margin-top:10%;
+  }
+  .contact-info img{
+    margin-bottom: 15%;
+  }
+  .contact-info h2{
+    margin-bottom: 10%;
+  }
+  .col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  .contact-form label{
+    font-weight:600;
+  }
+  .contact-form button{
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+  }
+  .btn-dark {
+    background: #000000;
+  }
+  .contact-form button:focus{
+    box-shadow:none;
+  }
 .social:hover {
     transition: .3s;
     transform: scale(1.2);
