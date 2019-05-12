@@ -13,6 +13,7 @@ O site foi desenvolvido usando Bootstrap 4.1 como framework, utilzando html5, cs
 - Footer com as redes sociais e site da EJComp.
 
 ### O squad
+- Mentora: Giulia Campos
 - Leonardo "Seq" Ferreira 
 - Maria "Duda" Francé
 - Leonardo "Yudi" Higuti
