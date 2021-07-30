@@ -62,11 +62,11 @@ const sorteDoDia = [
 ]
 
 function sortear() {
-    const index = Math.round(Math.random() * (sorteDoDia.length - 0) + 0);
-    console.log(index);
-    return sorteDoDia[index];
+    const frase = Math.round(Math.random() * sorteDoDia.length);
+    console.log(frase);
+    return sorteDoDia[frase];
 }
 
-$('#sorte').click(function () {
+$('#sorte').click(() => {
     alert(sortear());
 });
